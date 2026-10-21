@@ -1,0 +1,44 @@
+# Tiny Tapeout project information (chip-lab export, design 3c0e790e-9bc7-4b0f-ac17-f176d263fcc5)
+project:
+  title:        "UART INT8 dot product accelerator N=8 streaming MAC"
+  author:       "Kai Kim"
+  discord:      ""
+  description:  "UART INT8 dot product accelerator N=8 streaming MAC (chip-lab verified)"
+  language:     "Verilog"
+  clock_hz:     10000000
+
+  tiles: "1x1"
+
+  top_module:  "tt_um_joonsense_uart_dot_3c0e790e"
+
+  source_files:
+    - "core.v"
+    - "project.v"
+
+pinout:
+  ui[0]: ""
+  ui[1]: ""
+  ui[2]: ""
+  ui[3]: "RX"
+  ui[4]: ""
+  ui[5]: ""
+  ui[6]: ""
+  ui[7]: ""
+  uo[0]: "BUSY"
+  uo[1]: "ERR"
+  uo[2]: ""
+  uo[3]: ""
+  uo[4]: "TX"
+  uo[5]: "COUNT0"
+  uo[6]: "COUNT1"
+  uo[7]: "COUNT2"
+  uio[0]: ""
+  uio[1]: ""
+  uio[2]: ""
+  uio[3]: ""
+  uio[4]: ""
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: ""
+
+yaml_version: 6

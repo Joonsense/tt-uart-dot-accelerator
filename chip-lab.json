@@ -1,0 +1,54 @@
+{
+  "design": {
+    "id": "3c0e790e-9bc7-4b0f-ac17-f176d263fcc5",
+    "name": "가속기 N8 인터리브 (모듈 분리 RTL) · 재구성 booth",
+    "kind": "uart_dot",
+    "params": {
+      "acc_width": 20,
+      "architecture": "sequential",
+      "clock_mhz": 100.0,
+      "control_style": "global",
+      "depth": 8,
+      "depths": [],
+      "divisor": 8,
+      "fault": false,
+      "fifo_style": "wide",
+      "intermediate_policy": "wide64",
+      "lanes": 4,
+      "message": "abc",
+      "n": 8,
+      "operand_order": "interleaved",
+      "overflow": "saturate",
+      "stream_stages": 2,
+      "sum_pipeline_levels": [],
+      "sum_structure": "legacy",
+      "width": 8
+    },
+    "code_hash": "3c318e5e9819458c83c941a0e5ca7a868711037d313999189c2862e6ab2f5862",
+    "reference_version": "reference-1.0"
+  },
+  "seed": 42,
+  "fit": {
+    "design_id": "3c0e790e-9bc7-4b0f-ac17-f176d263fcc5",
+    "top_module": "tt_um_joonsense_uart_dot_3c0e790e",
+    "area_um2": 6506.24,
+    "cells": 734,
+    "flops": 120,
+    "yosys": "Yosys 0.69+post (git sha1 143eb14f9cc55d6f8927e68523b0c9d2166ed02c, Release, AppleClang clang++ 21.0.0.21000334)",
+    "tiles": "1x1",
+    "tile_count": 1,
+    "fits": true,
+    "utilization": 0.7073260885636135,
+    "price_eur": 70,
+    "tile_budget_um2": 9198.36,
+    "price_eur_per_tile": 70,
+    "scope": "sky130_fd_sc_hd TT 1.8V 25°C 배치 전 Yosys 표준셀 면적 + Tiny Tapeout 핀 래퍼. 타일 수용 면적 = 167×108µm × 여백 제외 85%(추정) × 배치 밀도 60%. 배치배선 성공·타이밍·가격 확정이 아닙니다."
+  },
+  "template": {
+    "source": "https://github.com/TinyTapeout/ttsky-verilog-template",
+    "commit": "a42e6662fab316e93b4e26399e21d41664a460b7",
+    "fetched": "2026-10-21",
+    "license": "Apache-2.0",
+    "note": "info.yaml, src/project.v, test/tb.v, test/test.py, test/Makefile, docs/info.md 는 backend/tinytapeout.py 가 생성한다."
+  }
+}
