@@ -1,5 +1,7 @@
 # A UART INT8 dot product accelerator in one Tiny Tapeout tile
 
+> Newer version: [tt-int4-dot-accelerator](https://github.com/Joonsense/tt-int4-dot-accelerator), 2 INT4 MAC per clock in the same tile. [Draw a digit in the browser demo](https://joonsense.github.io/tt-int4-dot-accelerator/).
+
 ![GDS render of the sky130 layout](docs/gds_render.png)
 
 Send 16 bytes (a0, b0, ..., a7, b7) over a 115200 baud serial line, get the 20-bit saturated INT8 dot product back
